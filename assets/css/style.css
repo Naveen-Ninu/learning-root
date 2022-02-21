@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Redressed&family=Shizuru&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +7,48 @@
     list-style-type: none;
     text-decoration: none;
     scroll-behavior: smooth;
+}
+
+:root {
+    /* -------FONT-FAMILIES------- */
+    --ff-primary: 'Cedarville Cursive',
+        cursive;
+    --ff-secondary: 'Redressed',
+        cursive;
+    --ff-baise: 'Shizuru',
+        cursive;
+    /* ----------FONT-SIZES---------- */
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-bais: 18px;
+    --font-md: 24px;
+    --font-lg: 32px;
+    --font-xl: 48px;
+    --font-xxl: 72px;
+    /* ------------COLORS------------ */
+    /* --color-primary: ; */
+}
+
+.ff-primary {
+    font-family: var(--ff-primary);
+}
+
+.ff-secondary {
+    font-family: var(--ff-secondary);
+}
+
+.ff-baise {
+    font-family: var(--ff-baise);
+}
+
+.font-xs {
+    font-size: var(--font-xs);
+}
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-baise {
+    font-size: var(--font-baise);
 }
