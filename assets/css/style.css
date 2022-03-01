@@ -52,3 +52,25 @@
 .font-baise {
     font-size: var(--font-baise);
 }
+
+/* =========road-map-css=========== */
+.roadmap {
+    position: relative;
+    background-image: url('../image/roadmap-bg-image.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.roadmap-left {
+    height: 200px;
+}
+
+.road-img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+
+/* =========road-map-css=========== /*
